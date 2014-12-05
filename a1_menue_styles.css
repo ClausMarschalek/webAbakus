@@ -15,8 +15,27 @@
     position: relative;
 }
 
+#menu lir {
+    float: right;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#menu lir:hover > a {
+    color: #fafafa;
+}
+
+*html #menu lir a:hover { /* IE6 */
+    color: #fafafa;
+}
+
+
+#menu lir:hover > ul {
+    display:block;
+}
+
 #menu a {
-    float: left;
+    float: right;
     height: 25px;
     padding: 0 25px;
     color: #999;
@@ -33,6 +52,7 @@
 *html #menu li a:hover { /* IE6 */
     color: #fafafa;
 }
+
 
 #menu li:hover > ul {
     display:block;
