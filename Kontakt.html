@@ -47,15 +47,16 @@
             
         </article>
         <aside>
-            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-            <div style='overflow:hidden;height:400px;width:300px;'><div id='gmap_canvas' style='height:400px;width:300px;'></div>
-            <style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-             <a href='https://www.horando.de/'>horando.de</a> <script type='text/javascript' src='http://maps-generator.com/google-maps-authorization/script.js?    id=f21107cdd412ba74a59dd0c7661de3953443983c'></script><script type='text/javascript'> function init_map(){
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <div style='overflow:hidden;height:400px;width:300px;'><div id='gmap_canvas'                     style='height:400px;width:300px;'></div>
+    <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+        </div> 
+            <script type='text/javascript'> function init_map(){
             var myOptions = {
             zoom:13,center:new google.maps.LatLng(50.10533,8.54422999999997),
             mapTypeId: google.maps.MapTypeId.ROADMAP};
             map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-            marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.10533,8.54422999999997)});
+            marker = new google.maps.Marker({map: map,position: new                                           google.maps.LatLng(50.10533,8.54422999999997)});
             infowindow = new google.maps.InfoWindow({
             content:'<strong>abakus x</strong><br>'+
             'Königsteiner Str. 47<br>'+
